@@ -1,0 +1,21 @@
+*{font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+
+}
+.container{
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+}
+
+#entrada, #saida{
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+}
